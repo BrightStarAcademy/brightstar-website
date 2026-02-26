@@ -6,21 +6,20 @@
     <title>Contact Us | Bright Star Academy</title>
     <meta name="description" content="Get in touch with Bright Star Academy. Questions about Drama-STEM programs? We'd love to hear from you!">
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+    <link rel="icon" href="assets/images/logo-icon.png" type="image/png">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container nav-content">
             <a href="/" class="logo">
-                <span class="logo-spark">✦</span>
-                <span class="logo-text">BRIGHT<span class="highlight">STAR</span> ACADEMY</span>
+                <img src="assets/images/logo.png" alt="Bright Star Academy">
             </a>
             <ul class="nav-links">
                 <li><a href="programs.html">Programs</a></li>
                 <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html" style="color: var(--dastem-orange);">Contact</a></li>
-                <li><a href="4-free-lessons.html" class="btn btn-primary btn-small">🎁 4 Free Lessons</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="4-free-lessons.html" class="btn btn-primary">🎁 4 Free Lessons</a></li>
             </ul>
             <button class="mobile-menu-btn" aria-label="Menu">☰</button>
         </div>
@@ -29,7 +28,7 @@
     <!-- Page Header -->
     <section class="page-header">
         <div class="container">
-            <h1>Let's <span class="highlight">Connect</span>!</h1>
+            <h1>Contact Us</h1>
             <p>Have a curious question, an idea to share, or just want to say hello? We'd love to hear from you!</p>
         </div>
     </section>
@@ -38,9 +37,9 @@
     <section class="section section-light">
         <div class="container">
             <div class="contact-grid">
-                <div class="contact-info">
-                    <h3>Get in Touch</h3>
-                    <p style="margin-bottom: 32px; color: var(--text-light);">Whether you're ready to enrol, want to know more about our Drama-STEM magic, or just wondering if your child will really pretend to be a bumblebee (spoiler: they will!).</p>
+                <div>
+                    <h3 style="margin-bottom: 24px;">Get in Touch</h3>
+                    <p style="margin-bottom: 32px; color: var(--color-text);">Whether you're ready to enrol, want to know more about our Drama-STEM magic, or just wondering if your child will really pretend to be a bumblebee (spoiler: they will!).</p>
                     
                     <div class="contact-item">
                         <div class="contact-icon">📍</div>
@@ -62,18 +61,10 @@
                         <div class="contact-icon">📱</div>
                         <div class="contact-text">
                             <strong>Phone</strong>
-                            <p>+65 8888 8888</p>
-                            <a href="https://wa.me/6588888888?text=Hi!%20I'm%20interested%20in%20Bright%20Star%20Academy's%20programs." class="whatsapp-link">
-                                💬 Chat on WhatsApp
+                            <p>+65 9086 2745</p>
+                            <a href="https://wa.me/6590862745?text=Hi!%20I'm%20interested%20in%20Bright%20Star%20Academy's%20programs." class="whatsapp-link">
+                                💬 WhatsApp Us
                             </a>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">🕐</div>
-                        <div class="contact-text">
-                            <strong>Operating Hours</strong>
-                            <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 9:00 AM - 1:00 PM<br>Sunday & Public Holidays: Closed</p>
                         </div>
                     </div>
                 </div>
@@ -82,93 +73,32 @@
                     <h3>Send us a Message</h3>
                     <form>
                         <div class="form-group">
-                            <label for="name">Your Name *</label>
-                            <input type="text" id="name" name="name" required>
+                            <label>Your Name *</label>
+                            <input type="text" name="name" required>
                         </div>
-                        
                         <div class="form-group">
-                            <label for="email">Email Address *</label>
-                            <input type="email" id="email" name="email" required>
+                            <label>Email Address *</label>
+                            <input type="email" name="email" required>
                         </div>
-                        
                         <div class="form-group">
-                            <label for="phone">Phone Number</label>
-                            <input type="tel" id="phone" name="phone" placeholder="+65">
+                            <label>Phone Number</label>
+                            <input type="tel" name="phone" placeholder="+65">
                         </div>
-                        
                         <div class="form-group">
-                            <label for="child-age">Child's Age</label>
-                            <select id="child-age" name="child-age">
+                            <label>Child's Age</label>
+                            <select name="age">
                                 <option value="">Select age range</option>
                                 <option value="3-4">3-4 years (Little Tinkerers)</option>
                                 <option value="5-6">5-6 years (Star Explorers)</option>
-                                <option value="other">Other / Not sure yet</option>
-                            </select>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <select id="subject" name="subject">
-                                <option value="">What can we help you with?</option>
-                                <option value="enrollment">Programme Enrollment</option>
-                                <option value="free-lessons">Free 4 Lessons</option>
-                                <option value="info">General Information</option>
-                                <option value="partnership">Partnership Enquiry</option>
                                 <option value="other">Other</option>
                             </select>
                         </div>
-                        
                         <div class="form-group">
-                            <label for="message">Your Message *</label>
-                            <textarea id="message" name="message" rows="5" placeholder="Tell us about your child and what you're looking for..." required></textarea>
+                            <label>Your Message *</label>
+                            <textarea name="message" rows="5" required></textarea>
                         </div>
-                        
-                        <button type="submit" class="btn btn-primary btn-large" style="width: 100%;">Send Message</button>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
                     </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Quick Action Section -->
-    <section class="section section-peach">
-        <div class="container">
-            <h2 class="section-title">Quick Actions</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">🎁</div>
-                    <h4>Try 4 Free Lessons</h4>
-                    <p>Experience our Drama-STEM magic with no obligations!</p>
-                    <a href="4-free-lessons.html" class="btn btn-primary" style="margin-top: 16px;">Claim Now</a>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">💬</div>
-                    <h4>WhatsApp Us</h4>
-                    <p>Get quick answers to your questions via chat.</p>
-                    <a href="https://wa.me/6588888888?text=Hi!%20I'm%20interested%20in%20Bright%20Star%20Academy's%20programs." class="btn btn-whatsapp" style="margin-top: 16px;">Chat Now</a>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">📅</div>
-                    <h4>Schedule a Visit</h4>
-                    <p>Come see our learning space in person!</p>
-                    <a href="mailto:hello@brightstaracademy.com?subject=Schedule%20a%20Visit" class="btn btn-secondary" style="margin-top: 16px;">Book Visit</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Map Section (Placeholder) -->
-    <section class="section section-light">
-        <div class="container">
-            <h2 class="section-title">Find Us</h2>
-            <p class="section-subtitle">Located at NTUC Income Junction 8, Tampines</p>
-            <div style="background: var(--gray); border-radius: var(--radius-lg); height: 400px; display: flex; align-items: center; justify-content: center;">
-                <div style="text-align: center; color: var(--text-light);">
-                    <div style="font-size: 4rem; margin-bottom: 16px;">📍</div>
-                    <p><strong>300 Tampines Avenue 5 #07-02</strong></p>
-                    <p>NTUC Income Junction 8</p>
-                    <p>Singapore 529653</p>
-                    <a href="https://maps.google.com/?q=300+Tampines+Avenue+5+Singapore+529653" target="_blank" class="btn btn-secondary" style="margin-top: 20px;">Open in Google Maps</a>
                 </div>
             </div>
         </div>
@@ -179,12 +109,8 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
-                    <div class="logo">
-                        <span class="logo-spark">✦</span>
-                        <span class="logo-text">BRIGHT<span class="highlight">STAR</span> ACADEMY</span>
-                    </div>
-                    <p>Singapore's first Drama-STEM enrichment programme. Where storytelling meets science, and sparks become stars.</p>
-                    <p style="margin-top: 12px;"><em>Little Tinkerers, Big Ideas</em></p>
+                    <img src="assets/images/logo.png" alt="Bright Star Academy">
+                    <p>Singapore's first Drama-STEM enrichment programme. Where storytelling meets science.</p>
                 </div>
                 <div class="footer-column">
                     <h5>Programs</h5>
@@ -198,16 +124,14 @@
                     <h5>Company</h5>
                     <ul class="footer-links">
                         <li><a href="about.html">About Us</a></li>
-                        <li><a href="about.html#founders">Our Founders</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
                     <h5>Connect</h5>
                     <ul class="footer-links">
-                        <li><a href="https://wa.me/6588888888">WhatsApp</a></li>
-                        <li><a href="mailto:hello@brightstaracademy.com">Email Us</a></li>
-                        <li><a href="https://instagram.com/brightstaracademy">Instagram</a></li>
+                        <li><a href="https://wa.me/6590862745">WhatsApp</a></li>
+                        <li><a href="mailto:hello@brightstaracademy.com">Email</a></li>
                     </ul>
                 </div>
             </div>
