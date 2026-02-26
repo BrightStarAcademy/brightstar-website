@@ -3,38 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brightstar Academy | Little Tinkerers, Big Ideas</title>
-    <meta name="description" content="Drama-STEM enrichment programs for children ages 3-6. Where sparks become stars.">
+    <title>Bright Star Academy | Singapore's First Drama-STEM Enrichment</title>
+    <meta name="description" content="Singapore's FIRST Drama-STEM enrichment programme for children ages 3-6. Where storytelling meets science. Little Tinkerers, Big Ideas.">
+    <meta name="keywords" content="Drama-STEM, preschool enrichment, Singapore, STEM education, drama, early childhood">
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container nav-content">
             <a href="/" class="logo">
-                <span class="logo-icon">✦</span>
+                <span class="logo-spark">✦</span>
                 <span class="logo-text">BRIGHT<span class="highlight">STAR</span> ACADEMY</span>
             </a>
             <ul class="nav-links">
-                <li><a href="#programs">Programs</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="free-lessons.html" class="btn btn-nav">🎁 4 Free Lessons</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="4-free-lessons.html" class="btn btn-primary btn-small">🎁 4 Free Lessons</a></li>
             </ul>
-            <button class="mobile-menu-btn">☰</button>
+            <button class="mobile-menu-btn" aria-label="Menu">☰</button>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <section class="hero">
         <div class="container hero-content">
+            <span class="hero-badge">🇸🇬 Singapore's FIRST Drama-STEM Programme</span>
             <h1>Where Sparks<br>Become <span class="highlight">Stars</span> ✨</h1>
-            <p class="hero-subtitle">Drama-STEM enrichment for curious minds ages 3-6.<br>Play-based learning that builds confidence, creativity, and a love for discovery.</p>
+            <p class="hero-subtitle">We turn curious kids into confident little explorers through hands-on science and magical storytelling. Every class is filled with laughter, learning, and a whole lot of imagination.</p>
             <div class="hero-buttons">
-                <a href="free-lessons.html" class="btn btn-primary btn-large">🎁 Claim 4 Free Lessons</a>
-                <a href="#programs" class="btn btn-secondary btn-large">Explore Programs</a>
+                <a href="4-free-lessons.html" class="btn btn-primary btn-large">🎁 Claim 4 Free Lessons</a>
+                <a href="programs.html" class="btn btn-secondary btn-large">Explore Programs</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- What is Drama-STEM Section -->
+    <section class="drama-stem">
+        <div class="container">
+            <div class="drama-stem-content">
+                <h2>What is <span class="highlight">Drama-STEM</span>?</h2>
+                <p>Unlike STEAM, which treats art as a broad brushstroke, Drama-STEM zooms in on the magic of theatre to bring science to life.</p>
+                <p>Here, children don't just learn—they <strong>become</strong> what they learn. Whether they're acting out the water cycle, stepping into the shoes of a scientist, or embodying an atom, young minds explore big ideas through story, role-play, and movement.</p>
+                <p><strong>It's science with feeling. Learning with laughter. A whole-body adventure that sticks.</strong></p>
+                
+                <div class="dastem-icons">
+                    <div class="dastem-icon">
+                        <div class="dastem-icon-circle drama">🎭</div>
+                        <span>Drama</span>
+                    </div>
+                    <div class="dastem-icon">
+                        <div class="dastem-icon-circle arts">🎨</div>
+                        <span>Arts</span>
+                    </div>
+                    <div class="dastem-icon">
+                        <div class="dastem-icon-circle science">⚛️</div>
+                        <span>Science</span>
+                    </div>
+                    <div class="dastem-icon">
+                        <div class="dastem-icon-circle tech">💡</div>
+                        <span>Technology</span>
+                    </div>
+                    <div class="dastem-icon">
+                        <div class="dastem-icon-circle engineering">🔧</div>
+                        <span>Engineering</span>
+                    </div>
+                    <div class="dastem-icon">
+                        <div class="dastem-icon-circle math">➕</div>
+                        <span>Mathematics</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -42,67 +82,117 @@
     <!-- Programs Section -->
     <section id="programs" class="programs">
         <div class="container">
-            <h2 class="section-title">Our Programs</h2>
-            <p class="section-subtitle">Two pathways designed for different developmental stages</p>
+            <h2 class="section-title">Our Flagship Programs</h2>
+            <p class="section-subtitle">Two pathways designed for different developmental stages — each a year-long journey of discovery.</p>
             
             <div class="program-cards">
                 <!-- Little Tinkerers -->
-                <div class="program-card">
-                    <div class="program-icon">🧒</div>
+                <div class="program-card tinkerers">
+                    <div class="program-icon">🐝</div>
                     <h3>Little Tinkerers</h3>
-                    <p class="program-age">Ages 3-4</p>
-                    <p class="program-desc">Play-based learning through colours, shapes, seasons, emotions, and sensory exploration. Building foundational curiosity through immersive stories and hands-on discovery.</p>
+                    <span class="program-age">Ages 3-4</span>
+                    <p class="program-tagline">"Discover the power of play!"</p>
+                    <p class="program-desc">At this age, children are constructing their understanding of the world. Our programme explores foundational topics through immersive stories, sensory play, and hands-on exploration — nurturing curious, confident learners who discover joy in learning.</p>
                     <ul class="program-features">
-                        <li>✦ 12 themed modules</li>
-                        <li>✦ Sensory exploration</li>
-                        <li>✦ Drama-based storytelling</li>
-                        <li>✦ Social-emotional learning</li>
+                        <li>12 themed modules following the calendar year</li>
+                        <li>Colours, shapes, seasons, emotions & more</li>
+                        <li>Sensory exploration & fine motor development</li>
+                        <li>Drama-based storytelling & role-play</li>
                     </ul>
-                    <a href="little-tinkerers.html" class="btn btn-primary">Learn More</a>
+                    <a href="little-tinkerers.html" class="btn btn-primary">Explore Little Tinkerers</a>
                 </div>
 
                 <!-- Star Explorers -->
-                <div class="program-card">
+                <div class="program-card explorers">
                     <div class="program-icon">🚀</div>
                     <h3>Star Explorers</h3>
-                    <p class="program-age">Ages 5-6</p>
-                    <p class="program-desc">Inquiry-based learning through light, water cycles, magnets, space, and biomimicry. Developing critical thinking and the confidence to form hypotheses.</p>
+                    <span class="program-age">Ages 5-6</span>
+                    <p class="program-tagline">"Inquiry-based learning for growing minds"</p>
+                    <p class="program-desc">Children at 5-6 can spot patterns and grasp abstract concepts. Our programme introduces structured problem-solving through storytelling, crafting, and scientific experiments — building critical thinking and the confidence to form hypotheses.</p>
                     <ul class="program-features">
-                        <li>✦ 12 advanced modules</li>
-                        <li>✦ Scientific experiments</li>
-                        <li>✦ Collaborative projects</li>
-                        <li>✦ Presentation skills</li>
+                        <li>12 advanced modules with hands-on experiments</li>
+                        <li>Light, water cycles, magnets, space & biomimicry</li>
+                        <li>Scientific reasoning & hypothesis formation</li>
+                        <li>Collaborative projects & presentations</li>
                     </ul>
-                    <a href="star-explorers.html" class="btn btn-primary">Learn More</a>
+                    <a href="star-explorers.html" class="btn btn-primary">Explore Star Explorers</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Why Us Section -->
-    <section id="about" class="why-us">
+    <!-- Why Choose Us Section -->
+    <section class="section section-peach">
         <div class="container">
-            <h2 class="section-title">Why Parents Trust Us</h2>
+            <h2 class="section-title">Why Parents Choose Us</h2>
+            <p class="section-subtitle">A groundbreaking approach to early childhood education that goes beyond traditional methods.</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎭</div>
+                    <h4>First of Its Kind</h4>
+                    <p>Singapore's FIRST Drama-STEM programme — a unique blend of dramatic play and STEM concepts that makes learning memorable and transformative.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h4>Research-Backed</h4>
+                    <p>Curriculum designed by award-winning educators with decades of experience and credentials from NIE, NTU, and Imperial College London.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌟</div>
+                    <h4>Holistic Development</h4>
+                    <p>Beyond academics — we nurture empathy, creativity, confidence, and critical thinking through embodied learning experiences.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h4>Age-Appropriate</h4>
+                    <p>Two distinct pathways crafted specifically for how 3-4 and 5-6 year olds learn, develop, and make sense of the world.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Values Section -->
+    <section class="section section-light">
+        <div class="container">
+            <h2 class="section-title">Our Core Values</h2>
+            <p class="section-subtitle">The principles that guide everything we do at Bright Star Academy.</p>
+            
             <div class="values-grid">
                 <div class="value-card">
-                    <div class="value-icon">🎭</div>
-                    <h4>Drama-STEM Approach</h4>
-                    <p>Unique blend of dramatic play and STEM concepts that makes learning memorable and fun.</p>
+                    <div class="value-icon">💡</div>
+                    <h5>Innovation</h5>
+                    <p>Pioneering new ways to make learning engaging and effective.</p>
                 </div>
                 <div class="value-card">
-                    <div class="value-icon">🧠</div>
-                    <h4>Age-Appropriate</h4>
-                    <p>Curriculum designed specifically for how 3-6 year olds learn and develop.</p>
+                    <div class="value-icon">💜</div>
+                    <h5>Empathy</h5>
+                    <p>Understanding and nurturing each child's unique journey.</p>
                 </div>
                 <div class="value-card">
-                    <div class="value-icon">👩‍🏫</div>
-                    <h4>Expert Educators</h4>
-                    <p>Trained facilitators who know how to nurture curiosity and confidence.</p>
+                    <div class="value-icon">🌈</div>
+                    <h5>Diversity</h5>
+                    <p>Celebrating differences and creating inclusive spaces.</p>
                 </div>
                 <div class="value-card">
-                    <div class="value-icon">🌟</div>
-                    <h4>Small Class Sizes</h4>
-                    <p>Maximum 20 children per session for personalized attention.</p>
+                    <div class="value-icon">🎉</div>
+                    <h5>Fun</h5>
+                    <p>Making every moment joyful and memorable.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">🎨</div>
+                    <h5>Creativity</h5>
+                    <p>Encouraging imagination and original thinking.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">🤗</div>
+                    <h5>Care</h5>
+                    <p>Providing a safe, supportive environment for growth.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">🔍</div>
+                    <h5>Curiosity</h5>
+                    <p>Fostering the drive to question, explore, and discover.</p>
                 </div>
             </div>
         </div>
@@ -110,29 +200,70 @@
 
     <!-- CTA Section -->
     <section class="cta">
-        <div class="container cta-content">
+        <div class="container">
             <h2>Ready to Ignite Your Child's Curiosity?</h2>
-            <p>Try our program with 4 free lessons — no obligations, just adventure!</p>
-            <a href="free-lessons.html" class="btn btn-primary btn-large">🎁 Claim Your Free Lessons</a>
+            <p>Experience Drama-STEM with 4 free lessons — no obligations, just adventure!</p>
+            <a href="4-free-lessons.html" class="btn btn-primary btn-large">🎁 Claim 4 Free Lessons</a>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
+    <!-- Contact Preview Section -->
+    <section class="section section-light">
         <div class="container">
-            <h2 class="section-title">Let's Chat!</h2>
+            <h2 class="section-title">Let's Connect!</h2>
+            <p class="section-subtitle">Have questions? We'd love to hear from you.</p>
+            
             <div class="contact-grid">
                 <div class="contact-info">
-                    <p><strong>📍 Location:</strong><br>300 Tampines Avenue 5 #07-02<br>NTUC Income Junction<br>Singapore 529653</p>
-                    <p><strong>📧 Email:</strong><br>hello@brightstaracademy.com</p>
-                    <p><strong>📱 WhatsApp:</strong><br>+65 XXXX XXXX</p>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-text">
+                            <strong>Location</strong>
+                            <p>300 Tampines Avenue 5 #07-02<br>NTUC Income Junction 8<br>Singapore 529653</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-text">
+                            <strong>Email</strong>
+                            <a href="mailto:hello@brightstaracademy.com">hello@brightstaracademy.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-text">
+                            <strong>Phone / WhatsApp</strong>
+                            <p>+65 8888 8888</p>
+                            <a href="https://wa.me/6588888888?text=Hi!%20I'm%20interested%20in%20Bright%20Star%20Academy's%20programs." class="whatsapp-link">
+                                💬 Chat on WhatsApp
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="contact-form-container">
-                    <form class="contact-form">
-                        <input type="text" placeholder="Your Name" required>
-                        <input type="email" placeholder="Your Email" required>
-                        <input type="text" placeholder="Your Child's Age">
-                        <textarea placeholder="Your Message" rows="4"></textarea>
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="child-age">Child's Age</label>
+                            <select id="child-age" name="child-age">
+                                <option value="">Select age range</option>
+                                <option value="3-4">3-4 years (Little Tinkerers)</option>
+                                <option value="5-6">5-6 years (Star Explorers)</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell us about your child and what you're looking for..."></textarea>
+                        </div>
                         <button type="submit" class="btn btn-primary">Send Message</button>
                     </form>
                 </div>
@@ -143,21 +274,42 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
+            <div class="footer-grid">
                 <div class="footer-brand">
-                    <span class="logo-icon">✦</span>
-                    <span class="logo-text">BRIGHT<span class="highlight">STAR</span> ACADEMY</span>
-                    <p>Little Tinkerers, Big Ideas</p>
+                    <div class="logo">
+                        <span class="logo-spark">✦</span>
+                        <span class="logo-text">BRIGHT<span class="highlight">STAR</span> ACADEMY</span>
+                    </div>
+                    <p>Singapore's first Drama-STEM enrichment programme. Where storytelling meets science, and sparks become stars.</p>
+                    <p style="margin-top: 12px;"><em>Little Tinkerers, Big Ideas</em></p>
                 </div>
-                <div class="footer-links">
-                    <a href="#programs">Programs</a>
-                    <a href="#about">About</a>
-                    <a href="#contact">Contact</a>
-                    <a href="free-lessons.html">Free Lessons</a>
+                <div class="footer-column">
+                    <h5>Programs</h5>
+                    <ul class="footer-links">
+                        <li><a href="little-tinkerers.html">Little Tinkerers (3-4)</a></li>
+                        <li><a href="star-explorers.html">Star Explorers (5-6)</a></li>
+                        <li><a href="4-free-lessons.html">4 Free Lessons</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h5>Company</h5>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="about.html#founders">Our Founders</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h5>Connect</h5>
+                    <ul class="footer-links">
+                        <li><a href="https://wa.me/6588888888">WhatsApp</a></li>
+                        <li><a href="mailto:hello@brightstaracademy.com">Email Us</a></li>
+                        <li><a href="https://instagram.com/brightstaracademy">Instagram</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Brightstar Academy. All rights reserved.</p>
+                <p>&copy; 2026 Bright Star Academy. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -172,10 +324,20 @@
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
             });
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(e) {
+            const nav = document.querySelector('.nav-links');
+            const btn = document.querySelector('.mobile-menu-btn');
+            if (!nav.contains(e.target) && !btn.contains(e.target)) {
+                nav.classList.remove('active');
+            }
         });
     </script>
 </body>
