@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎁 Claim 4 Free Lessons | Brightstar Academy</title>
+    <meta name="description" content="Try Brightstar Academy's Drama-STEM program with 4 free lessons. No obligations, just adventure!">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Calendly -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="/" class="logo">
+                <span class="logo-icon">✦</span>
+                <span class="logo-text">BRIGHT<span class="highlight">STAR</span> ACADEMY</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="/#programs">Programs</a></li>
+                <li><a href="/#about">About Us</a></li>
+                <li><a href="/#contact">Contact</a></li>
+                <li><a href="free-lessons.html" class="btn btn-nav">🎁 4 Free Lessons</a></li>
+            </ul>
+            <button class="mobile-menu-btn">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <section class="free-hero">
+        <div class="container">
+            <h1>🎁 Claim Your 4 Free Lessons</h1>
+            <p>Choose a program below and book your little star's free trial — no obligations, just adventure!</p>
+        </div>
+    </section>
+
+    <!-- Program Cards -->
+    <section class="free-booking">
+        <div class="container">
+            <div class="booking-cards">
+                <!-- Little Tinkerers -->
+                <div class="booking-card">
+                    <div class="program-icon">🧒</div>
+                    <h3>Little Tinkerers</h3>
+                    <p class="program-age"><strong>Ages 3-4</strong></p>
+                    <p>Play-based learning through colours, shapes, seasons & sensory exploration</p>
+                    <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/admin-brightstaracademy/little-tinkerers-3-4yo?primary_color=ff6b35'});return false;" class="btn btn-primary">Book Free Trial</button>
+                </div>
+
+                <!-- Star Explorers -->
+                <div class="booking-card">
+                    <div class="program-icon">🚀</div>
+                    <h3>Star Explorers</h3>
+                    <p class="program-age"><strong>Ages 5-6</strong></p>
+                    <p>Inquiry-based learning through light, magnets, space & experiments</p>
+                    <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/admin-brightstaracademy/star-explorers-5-6yo?primary_color=ff6b35'});return false;" class="btn btn-primary">Book Free Trial</button>
+                </div>
+            </div>
+
+            <div class="trust-signals">
+                <p>✅ No credit card required &nbsp;•&nbsp; ✅ No obligations &nbsp;•&nbsp; ✅ Just fun learning!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">✦</span>
+                    <span class="logo-text">BRIGHT<span class="highlight">STAR</span> ACADEMY</span>
+                    <p>Little Tinkerers, Big Ideas</p>
+                </div>
+                <div class="footer-links">
+                    <a href="/#programs">Programs</a>
+                    <a href="/#about">About</a>
+                    <a href="/#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Brightstar Academy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+
+    <style>
+        /* Free Lessons Page Specific Styles */
+        .free-hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            padding: 140px 0 60px;
+            text-align: center;
+            color: var(--light);
+        }
+
+        .free-hero h1 {
+            margin-bottom: 16px;
+        }
+
+        .free-hero p {
+            font-size: 1.2rem;
+            opacity: 0.95;
+        }
+
+        .free-booking {
+            padding: 60px 0 100px;
+            background: #FFF9F5;
+        }
+
+        .booking-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 32px;
+            max-width: 800px;
+            margin: 0 auto 40px;
+        }
+
+        .booking-card {
+            background: var(--light);
+            border-radius: var(--radius);
+            padding: 40px;
+            text-align: center;
+            box-shadow: var(--shadow);
+            transition: transform 0.3s ease;
+        }
+
+        .booking-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .booking-card .program-icon {
+            font-size: 3rem;
+            margin-bottom: 16px;
+        }
+
+        .booking-card h3 {
+            color: var(--primary);
+            margin-bottom: 8px;
+        }
+
+        .booking-card .program-age {
+            color: var(--text-light);
+            margin-bottom: 16px;
+        }
+
+        .booking-card p {
+            color: var(--text-light);
+            margin-bottom: 24px;
+        }
+
+        .trust-signals {
+            text-align: center;
+            color: var(--text-light);
+        }
+
+        .trust-signals p {
+            font-size: 1rem;
+        }
+    </style>
+</body>
+</html>
