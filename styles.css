@@ -168,8 +168,47 @@ h6 { font-size: 16px; }
 }
 
 .logo img {
-    height: 50px;
+    height: 100px;
     width: auto;
+}
+
+/* Programs Dropdown */
+.nav-dropdown {
+    position: relative;
+}
+
+.nav-dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    min-width: 220px;
+    box-shadow: var(--shadow-lg);
+    border-radius: var(--radius);
+    padding: 8px 0;
+    z-index: 1001;
+}
+
+.nav-dropdown:hover .nav-dropdown-content {
+    display: block;
+}
+
+.nav-dropdown-content a {
+    display: block;
+    padding: 12px 20px;
+    color: var(--color-text);
+    font-weight: 500;
+}
+
+.nav-dropdown-content a:hover {
+    background: var(--color-background);
+    color: var(--color-link);
+}
+
+.nav-dropdown > a::after {
+    content: ' ▾';
+    font-size: 12px;
 }
 
 .nav-links {
