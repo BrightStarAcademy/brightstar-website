@@ -688,7 +688,9 @@ h6 { font-size: 16px; }
 .footer-brand img {
     height: 60px;
     margin-bottom: 16px;
-    filter: brightness(0) invert(1);
+    background: #fff;
+    padding: 12px 16px;
+    border-radius: 8px;
 }
 
 .footer-brand p {
