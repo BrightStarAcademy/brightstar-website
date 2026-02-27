@@ -183,11 +183,12 @@ h6 { font-size: 16px; }
     top: 100%;
     left: 0;
     background: #fff;
-    min-width: 220px;
+    min-width: 240px;
     box-shadow: var(--shadow-lg);
     border-radius: var(--radius);
     padding: 8px 0;
     z-index: 1001;
+    white-space: nowrap;
 }
 
 .nav-dropdown:hover .nav-dropdown-content {
@@ -687,10 +688,11 @@ h6 { font-size: 16px; }
 .footer-brand img {
     height: 60px;
     margin-bottom: 16px;
+    filter: brightness(0) invert(1);
 }
 
 .footer-brand p {
-    color: rgba(255,255,255,0.7);
+    color: rgba(255,255,255,0.85);
     font-size: 14px;
     line-height: 1.6;
 }
