@@ -840,6 +840,15 @@ h6 { font-size: 16px; }
     .section {
         padding: 64px 0;
     }
+    
+    .dastem-grid,
+    [style*="grid-template-columns: 1fr 1fr"] {
+        grid-template-columns: 1fr !important;
+    }
+    
+    .hero-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 480px) {
