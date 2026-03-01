@@ -376,6 +376,7 @@ h6 { font-size: 16px; }
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 48px;
+    align-items: stretch;
 }
 
 .program-card {
@@ -384,10 +385,17 @@ h6 { font-size: 16px; }
     padding: 48px;
     box-shadow: var(--shadow-lg);
     transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .program-card:hover {
     transform: translateY(-8px);
+}
+
+.program-card .btn {
+    margin-top: auto;
 }
 
 .program-emoji {
@@ -420,6 +428,7 @@ h6 { font-size: 16px; }
 .program-features {
     list-style: none;
     margin-bottom: 32px;
+    flex-grow: 1;
 }
 
 .program-features li {
