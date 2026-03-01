@@ -410,12 +410,12 @@ h6 { font-size: 16px; }
 
 .program-age {
     display: inline-block;
-    background: var(--brand-peach);
-    color: var(--color-heading);
-    padding: 6px 16px;
-    border-radius: 20px;
+    background: var(--color-heading);
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 30px;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 18px;
     margin-bottom: 16px;
 }
 
@@ -888,6 +888,14 @@ h6 { font-size: 16px; }
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.program-pricing .price-old {
+    font-size: 24px;
+    font-weight: 500;
+    color: #999;
+    text-decoration: line-through;
+    margin-right: 8px;
 }
 
 .program-pricing .price {
