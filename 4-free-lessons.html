@@ -7,6 +7,8 @@
     <meta name="description" content="Try Bright Star Academy's Drama-STEM programme with 4 free lessons. No obligations, no credit card required.">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="assets/images/logo-icon.png" type="image/png">
+    <!-- Calendly CSS -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
@@ -57,9 +59,9 @@
                         <li>Drama-based storytelling</li>
                         <li>Take-home materials</li>
                     </ul>
-                    <a href="https://calendly.com/admin-brightstaracademy/little-tinkerers-3-4yo" target="_blank" class="btn btn-primary btn-large" style="width: 100%;">
+                    <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/admin-brightstaracademy/little-tinkerers-3-4yo'});return false;" class="btn btn-primary btn-large" style="width: 100%;">
                         Book Free Lessons
-                    </a>
+                    </button>
                     <div class="trust-badges">
                         <span class="trust-badge">✅ No credit card</span>
                         <span class="trust-badge">✅ No obligations</span>
@@ -78,9 +80,9 @@
                         <li>Scientific exploration</li>
                         <li>Take-home materials</li>
                     </ul>
-                    <a href="https://calendly.com/admin-brightstaracademy/star-explorers-5-6yo" target="_blank" class="btn btn-primary btn-large" style="width: 100%;">
+                    <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/admin-brightstaracademy/star-explorers-5-6yo'});return false;" class="btn btn-primary btn-large" style="width: 100%;">
                         Book Free Lessons
-                    </a>
+                    </button>
                     <div class="trust-badges">
                         <span class="trust-badge">✅ No credit card</span>
                         <span class="trust-badge">✅ No obligations</span>
@@ -123,8 +125,8 @@
             <h2>Ready to Start the Adventure?</h2>
             <p>✅ No credit card required · ✅ No obligations · ✅ Just fun learning!</p>
             <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-                <a href="https://calendly.com/admin-brightstaracademy/little-tinkerers-3-4yo" target="_blank" class="btn btn-primary btn-large">🐝 Book Little Tinkerers</a>
-                <a href="https://calendly.com/admin-brightstaracademy/star-explorers-5-6yo" target="_blank" class="btn btn-primary btn-large">🚀 Book Star Explorers</a>
+                <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/admin-brightstaracademy/little-tinkerers-3-4yo'});return false;" class="btn btn-primary btn-large">🐝 Book Little Tinkerers</button>
+                <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/admin-brightstaracademy/star-explorers-5-6yo'});return false;" class="btn btn-primary btn-large">🚀 Book Star Explorers</button>
             </div>
         </div>
     </section>
@@ -163,7 +165,6 @@
                     <h5>Learn More</h5>
                     <ul class="footer-links">
                         <li><a href="about.html">About Us</a></li>
-                <li><a href="testimonials.html">Testimonials</a></li>
                         <li><a href="testimonials.html">Testimonials</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
@@ -182,6 +183,9 @@
         </div>
     </footer>
 
+    <!-- Calendly Widget JS -->
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    
     <script>
         document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
             document.querySelector('.nav-links').classList.toggle('active');
